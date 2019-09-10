@@ -1,0 +1,76 @@
+h1 {
+    font-size: 35px;
+    background-color: lightblue;
+    padding:20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 33%;
+}
+
+.row {
+    margin-left: 0px;
+    margin-top: 5px;
+    
+}
+
+body {
+    background-image: url("https://www.muralswallpaper.com/app/uploads/Pastel-Geometric-Triangle-Pattern-Wallpaper-Mural-Plain-820x532.jpg");
+    background-repeat: bottom;
+    background-size: 100%;
+    
+}
+
+.wrapper {
+    width: auto;
+    margin-left: 15px;   
+    
+}
+
+
+
+.instructions {
+    background-color: lightgoldenrodyellow;
+    padding : 10px;
+    width: 50%;
+    
+}
+
+p {
+    font-size: 18px;
+}
+
+#wins, #losses {
+    background-color: blue;
+    float: left;
+    color: white;
+    padding: 20px;
+    margin-right: 20px;   
+   
+}
+
+#wins {
+    margin-right: 20px;
+}
+
+
+#random-number {
+    background-color: lightgrey;
+    float: left;
+    color: white;
+    padding: 20px;
+    margin-right: 20px;   
+    
+    
+}
+
+#jewel-1, #jewel-2, #jewel-3, #jewel-4 {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
