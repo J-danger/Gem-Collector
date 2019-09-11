@@ -7,6 +7,14 @@ $(document).ready(function () {
     var wins = 0;
     var losses = 0;
     var total = 0;
+    var number1 = Math.floor(Math.random() * 11 + 1);
+    console.log(number1);
+    var number2 = Math.floor(Math.random() * 11 + 1);
+    console.log(number2);
+    var number3 = Math.floor(Math.random() * 11 + 1);
+    console.log(number3);
+    var number4 = Math.floor(Math.random() * 11 + 1);
+    console.log(number4);
 
 
 
@@ -29,6 +37,14 @@ $(document).ready(function () {
         random = Math.floor(Math.random() * 30 + 10);        
         $('#random-number').text( "Goal: " + random);
         total = 0;
+        number1 = Math.floor(Math.random() * 11 + 1);
+        console.log(number1);
+        number2 = Math.floor(Math.random() * 11 + 1);
+        console.log(number2);
+        number3 = Math.floor(Math.random() * 11 + 1);
+        console.log(number3);
+        number4 = Math.floor(Math.random() * 11 + 1);
+        console.log(number4);
         // alert("Try again!")
         currentTotal();
     }
@@ -36,6 +52,14 @@ $(document).ready(function () {
         random = Math.floor(Math.random() * 30 + 10);        
         $('#random-number').text( "Goal: " + random);
         total = 0;
+        number1 = Math.floor(Math.random() * 11 + 1);
+        console.log(number1);
+        number2 = Math.floor(Math.random() * 11 + 1);
+        console.log(number2);
+        number3 = Math.floor(Math.random() * 11 + 1);
+        console.log(number3);
+        number4 = Math.floor(Math.random() * 11 + 1);
+        console.log(number4);
         // alert("You win! Play Again?")
         currentTotal();
         
@@ -46,10 +70,10 @@ $(document).ready(function () {
     // Generate gem numbers on click
     randomNumber();
     $("#jewel-1").on("click", function () {
-        var number1 = Math.floor(Math.random() * 11 + 1);
+        
         total = total + number1;
         currentTotal();
-        console.log(number1);
+       
         console.log(total)
         if (total === random) {
             wins++;
@@ -65,10 +89,10 @@ $(document).ready(function () {
     });
 
     $("#jewel-2").on("click", function () {
-        var number2 = Math.floor(Math.random() * 11 + 1);
+        
         total = total + number2;
         currentTotal();
-        console.log(number2);
+        // console.log(number2);
         console.log(total)
         if (total === random) {
             wins++;
@@ -84,10 +108,10 @@ $(document).ready(function () {
         }
     });
     $("#jewel-3").on("click", function () {
-        var number3 = Math.floor(Math.random() * 11 + 1);
+        
         total = total + number3;
         currentTotal();
-        console.log(number3);
+        // console.log(number3);
         console.log(total)
         if (total === random) {
             wins++;
@@ -103,10 +127,10 @@ $(document).ready(function () {
         }
     });
     $("#jewel-4").on("click", function () {
-        var number4 = Math.floor(Math.random() * 11 + 1);
+       
         total = total + number4;
         currentTotal();
-        console.log(number4);
+        // console.log(number4);
         console.log(total)
         if (total === random) {
             wins++;
