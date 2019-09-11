@@ -6,9 +6,11 @@ $(document).ready(function() {
     console.log(random);
     var wins = 0;
     var losses= 0;
+   
 
     function randomNumber() {
-        document.querySelector("#random-number").innerHTML = "Reach</br>" + random;
+        document.querySelector("#random-number").innerHTML = random
+        
       }
     //   function attempts() {
     //     document.querySelector("#guesses").innerHTML = "Guesses: " + guesses;
