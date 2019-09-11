@@ -29,6 +29,11 @@ h1 {
     
   }
 
+#wins, #losses, #random-number {
+    font-weight: bold;
+}
+
+
 .row {
     
     width: 690px;
