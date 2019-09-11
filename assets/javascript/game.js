@@ -7,12 +7,14 @@ $(document).ready(function() {
     var wins = 0;
     var losses= 0;
 
-    function correctAnswer() {
-        document.querySelector("#wins").innerHTML = "Wins: " + wins;
+    function randomNumber() {
+        document.querySelector("#random-number").innerHTML = "Reach</br>" + random;
       }
-
+    //   function attempts() {
+    //     document.querySelector("#guesses").innerHTML = "Guesses: " + guesses;
+    //   }
     // Generate gem numbers on click
-    
+    randomNumber();
     $("#jewel-1").on("click", function() {
         var number1 = Math.floor(Math.random() * 11);
         console.log(number1);
