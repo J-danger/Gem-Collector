@@ -1,3 +1,3 @@
 # Unit-4-game
 
-A Javascript based Gem Collector Game
+A Javascript based Jewel Collector Game
